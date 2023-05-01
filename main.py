@@ -1,8 +1,8 @@
 import threading
 from queue import Queue
 from spider import Spider
-from domain import *
-from demo import *
+from domain import get_domain_name
+from demo import file_to_set
 
 
 PROJECT_NAME = 'thesite'
